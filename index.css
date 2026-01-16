@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito",'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.nav-container {
+    padding: 20px 0;
+}
+
+.nav-container h2 {
+    color: rgb(29,29,29);
+}
+.nav-container .nav{
+    justify-self: flex-end;
+    display: flex;
+}
+
+.nav-container .nav a {
+    margin: 0 20px;
+    color: black;
+}
+
+.nav-container .nav .active {
+    background: #333;
+    color: white;
+    font-size: 20px;
+    padding: 40px,80px;
+    border-radius: 10px;
+ 
+   
+}
+  
+
+.header {
+    width: 80%;
+    margin: 70px auto;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container div h3 {
+    font-size: 70px;
+}
+
+.container div h3::after {
+    content: "";
+    position: absolute;
+    background: rgb(23,125,65);
+    height: 3px;
+    width: 160px;
+    top: 23%;
+    left: 34%;
+}
+
+.container div p {
+    margin: 20px 0;
+    font-weight: 150;
+    font-size: 20px;
+}
+
+.container div a {
+    padding: 15px;
+    background: #333;
+    margin: 20px 0;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+}
+
+.headphone {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    opacity: 0.1;
+    z-index: -1;
+    height: 500px;
+    width: 500px;
+} 
+
+.footer {
+    margin: 100px 0 0 0;
+    background: #333;
+    padding: 100px 100px;
+}
+
+.footer .main-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.main-container div h4 {
+    color: cornflowerblue;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.main-container div li {
+    cursor: pointer;
+    margin: 3px 0;
+    color: white;
+    padding-right: 7px;
+   padding-top: 6px;
+}
+
+.bottom-img {
+    width: 150px;
+    opacity: 0.6;
+    margin-left: 200px;
+}
+
+.main-container div li i {
+   padding-right: 7px;
+   padding-top: 6px;
+   opacity: 0.7;
+   
+}
